@@ -1,0 +1,154 @@
+/*Colores
+#2B37FD
+#2763E3
+Fondo :#38A8FF 
+#2BFDE4*/
+
+img {
+   width: 35vw;
+   border-radius: 30px;
+}
+body {
+    background-color: #38A8FA;
+    margin-top: 70px;
+}
+.titulo{
+    display: inline-block;
+    position: absolute;
+    padding-left: 3%;
+}
+.nombre-apellido{
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    
+}
+.profesion{
+    color: #2B37FD;
+    font-style: oblique !important;
+    font-size: 30px;
+}
+.principal {
+    display: inline-block;
+    position: absolute;
+    padding-left: inherit;
+    margin: 140px;
+    background-color: #2B37FD;
+    text-align: center;
+    font: lighter 18px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    color: #2BFDE4;
+    margin-top: 200px;
+}
+.titulo-centralizado {
+    text-align: left;
+    font-size: 25px;
+}
+.experiencia {
+    background-color: #2B37FD;
+    border-radius: 14px;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 20px;
+}
+
+.educacion{
+    background-color: #2B37FD;
+    border-radius: 14px;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 28px;
+}
+
+.hobbies{
+    background-color: #2B37FD;
+    border-radius: 14px;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 35px;
+}
+
+
+.items {
+    background-color: #2BFDE4;
+    color: black;
+    font-size: 15px;
+
+}
+
+footer{
+    background-color: #2B37FD;
+    text-align: center;
+    color: white;
+}
+a {
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .principal{
+        margin: 20vw 10vw 5vw;
+    }
+
+    .principal p{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .titulo h1, .titulo h2{
+        font-size: 1rem;
+    }
+
+    .titulo-centralizado {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    img{
+        width: 20vw;
+    }
+    .principal.principal {
+        margin: 9vw 1vw 5vw;
+    }
+
+    .principal p{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 665px) {
+    body {
+        background-color: #38A8FA;
+        margin-top: 20px;
+    }
+    .titulo h1, .titulo h2{
+        font-size: 1rem;
+    }
+
+    .titulo-centralizado {
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    img{
+        width: 20vw;
+    }
+    .principal.principal {
+        margin: 12vw 1vw 5vw;
+    }
+
+    .principal p{
+        font-size: .7rem;
+    }
+
+    .experiencia{
+        margin-top: 8rem;
+    }
+}
