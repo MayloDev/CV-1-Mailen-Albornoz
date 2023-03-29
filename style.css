@@ -4,91 +4,153 @@
 Fondo :#38A8FF 
 #2BFDE4*/
 
-img {
-   width: 35vw;
-   border-radius: 30px;
-}
 body {
     background-color: #38A8FA;
     margin-top: 70px;
 }
+
+.fotoPerfil {
+   width: 35vw;
+   border-radius: 30px;
+}
+
+main{
+    display: flex;
+    margin-top: -3vh;
+    align-items: center;
+}
+
 .titulo{
     display: inline-block;
     position: absolute;
     padding-left: 3%;
+    text-shadow: 0px 1px 16px rgba(255,255,255,0.6);
 }
 .nombre-apellido{
     color: white;
     font-size: 50px;
-    font-weight: lighter;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .profesion{
-    color: #2B37FD;
+    color: #2763E3;
     font-style: oblique !important;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .principal {
     display: inline-block;
     position: absolute;
-    padding-left: inherit;
-    margin: 140px;
-    background-color: #2B37FD;
+    padding: 0 2rem 2rem;
+    margin: 0 5rem;
+    background-color: #25C19B;
     text-align: center;
-    font: lighter 18px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: lighter 18px;
     border-radius: 30px;
-    color: #2BFDE4;
+    color: #2B37FD;
     margin-top: 200px;
 }
+
+.principal p{
+    text-align: initial;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .titulo-centralizado {
     text-align: left;
     font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2763E3;
 }
-.experiencia {
-    background-color: #2B37FD;
+.experiencia, .educacion, .hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b6caf4;
     border-radius: 14px;
-    padding: 0.1rem;
+    padding: 1rem;
     margin: 0.1rem;
     margin-top: 3rem;
     color: white;
     font-size: 20px;
+    min-height: 46vh;
+    width: 30vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
-
-.educacion{
-    background-color: #2B37FD;
-    border-radius: 14px;
-    padding: 0.1rem;
-    margin: 0.1rem;
-    margin-top: 3rem;
-    color: white;
-    font-size: 28px;
-}
-
-.hobbies{
-    background-color: #2B37FD;
-    border-radius: 14px;
-    padding: 0.1rem;
-    margin: 0.1rem;
-    margin-top: 3rem;
-    color: white;
-    font-size: 35px;
-}
-
 
 .items {
-    background-color: #2BFDE4;
-    color: black;
+    color: #fcfdff;
     font-size: 15px;
 
 }
 
+.tarjetaDatosExp, .tarjetaDatosEdu, .tarjetaDatosHob{
+    background-color: #58a5de;
+    border-radius: 10px;
+    border: 3px solid #cbb489;
+    min-height: 35vh;
+    display: none;
+    min-width: 98%;
+}
+
+button {
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #25C19B;
+    color: #2763E3;
+    border-radius: 10px;
+    border-color: #f6c07e;
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer{
-    background-color: #2B37FD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #b6caf4;
+    border-radius: 10px;
     text-align: center;
     color: white;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
+
+footer p {
+    font-size: 1.5rem;
+}
+
+.social{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+}
+
+.social a{
+    text-decoration: none;
+    color: #2763E3;
+}
+
+.socialIcon{
+    width: 3rem;
+}
+
 a {
     color: white;
+}
+
+.mail, .linkedin, .github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #25C19B;
+    min-width: 25vh;
+    min-height: 25vh;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 @media (max-width: 1200px) {
